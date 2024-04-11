@@ -1,0 +1,17 @@
+//GET http://localhost:3000/song
+
+//GET http://localhost:3000/song/1
+
+POST http://localhost:3000/song
+Content-Type: application/json
+
+{
+    "title": "new artist",
+    "artists": ["Check", "cool"],
+    "releaseDate": "2024-05-20",
+    "duration": "03:02"
+}
+
+//PUT http://localhost:3000/song/1
+
+//DELETE http://localhost:3000/song/1
